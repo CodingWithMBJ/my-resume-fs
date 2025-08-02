@@ -1,0 +1,145 @@
+html {
+    height: 100vh;
+    width: 100%;
+    font-size: 93%;
+    min-height: 100vh;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    /* background-color: snow; */
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+}
+
+a {
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid black;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+header p {
+    display: inline-block;
+
+}
+
+
+.goal-time article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.goal-time article a {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 10px;
+
+}
+
+main>section {
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid black;
+    ;
+}
+
+main section h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.education,
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.project-container, .experience-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.education-content,
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    gap: 6px;
+}
+
+.goal-time,
+.title-time {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.school-info,
+.company-info, .project-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.goal-time h3,
+.company-info h3 {
+    font-weight: 400;
+}
+
+.skills article {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-bottom: 10px;
+
+}
+
+/* .skills article h4 {
+    font-weight: 500;
+} */
+
+.skills article h4 span {
+    font-weight: 300;
+}
